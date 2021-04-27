@@ -1,13 +1,26 @@
-src/Title.css
+/*  src/Title.css  */
 
 .Title {
   box-sizing: border-box;
   width: 100%;
-  display: flex;
+  display: inline-block;
   justify-content: center;
   align-items: baseline;
   padding: 1em;
   margin-bottom: 2em;
   background-color: rgb(192, 45, 26);
-  color: #FFF;
+  color: #fff;
+}
+
+.Title .nav-link {
+  display: inline-block;
+  padding: 0.5em 1em;
+  color: rgba(255, 255, 255, 0.835);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.Title .nav-link-active {
+  color: #fff;
+  border-bottom: 2px solid;
 }
