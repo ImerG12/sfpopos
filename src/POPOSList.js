@@ -13,7 +13,7 @@ function POPOSList() {
       return (
         <POPOSSpace
           id={id}
-          key={`${title}-${id}`}
+          key={title}
           name={title}
           address={address}
           image={images[0]}
